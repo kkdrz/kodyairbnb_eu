@@ -5,6 +5,7 @@ module.exports = {
     author: `@kkdrz`,
   },
   plugins: [
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -26,6 +27,12 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/icon.png`,
       },
+    },
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      }
     },
   ],
 }

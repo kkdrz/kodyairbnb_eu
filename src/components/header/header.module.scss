@@ -1,0 +1,32 @@
+
+.header_container {
+    height: 100%;
+    background-image: url("../../images/header_image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.header_title {
+    padding: 10px 20px 10px 20px;
+    display: block;
+    text-align: center;
+    color: white;
+    background-color: #339fd5de
+}
+
+.arrow {
+    font-size: 3em;
+    position: relative;
+    top: 0;
+    transition: top ease 1s;
+}
+
+.arrow:hover {
+    color: rgb(0, 225, 255);
+    top: 15px;
+}
