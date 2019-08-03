@@ -1,5 +1,7 @@
 #!/bin/bash
 
+gatsby build
+
 prod_site_dir="/var/www/kodyairbnb_eu"
 dev_site_dir="/home/konrad/projects/kodyairbnb/public"
 ssh_connection="root@212.237.11.153"

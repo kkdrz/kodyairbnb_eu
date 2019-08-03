@@ -1,7 +1,31 @@
 .instruction_container {
     height: 100%;
+    width: 100%;
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
-    align-content: center;
+    justify-content: space-between;
+    border: 2px solid black;
+}
+
+%arrow {
+    font-size: 3em;
+    top: 0;
+    transition: top ease 1s;
+}
+
+.arrow_up {
+    @extend %arrow;
+}
+
+.arrow_down {
+    @extend %arrow;
+}
+.arrow_up:hover {
+    color: rgb(0, 225, 255);
+    top: -15px;
+}
+
+.arrow_down:hover {
+    color: rgb(0, 225, 255);
+    top: 15px;
 }
