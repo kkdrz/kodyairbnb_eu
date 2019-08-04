@@ -9,9 +9,11 @@ import { Link } from "gatsby"
 
 const Instruction = props => (
   <div id={props.id} className={styles.instruction_container}>
+    
     <Link to={"/#" + props.prevItem}>
       <FaAngleDoubleUp className={styles.arrow_up} />
     </Link>
+
     <div>{props.children}</div>
 
     <Link style={{ visibility: props.nextItem ? 'visible': 'hidden'}} to={"/#" + props.nextItem}>
