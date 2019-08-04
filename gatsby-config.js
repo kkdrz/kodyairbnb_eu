@@ -28,6 +28,13 @@ module.exports = {
         icon: `src/images/icon.png`,
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-145121177-1",
+        head: true,
+      },
+    },
     // {
     //   resolve: `gatsby-plugin-typography`,
     //   options: {
