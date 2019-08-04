@@ -2,3 +2,15 @@ html, body, #___gatsby, #gatsby-focus-wrapper {
     margin: 0;
     height:100%;
 }
+
+a {
+    text-decoration: none;
+}
+
+a > b {
+    color: rgb(243, 107, 28);
+}
+
+p {
+    margin: 0px 0px 15px 0px
+}

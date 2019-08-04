@@ -7,21 +7,18 @@ import { FaAngleDoubleUp } from "react-icons/fa"
 
 import { Link } from "gatsby"
 
-const Instruction = (props) => (
-  
-    <div id={props.id} className={styles.instruction_container}>
-      <Link className={styles.arrow_up} to={"/#" + props.prevItem}>
-        <FaAngleDoubleUp />
-      </Link>
-      <div>
-        {props.children}
-        {props.id}
-      </div>
-      <Link className={styles.arrow_down} to={"/#" + props.nextItem}>
-        <FaAngleDoubleDown />
-      </Link>
-    </div>
-  
+const Instruction = props => (
+  <div id={props.id} className={styles.instruction_container}>
+    <Link to={"/#" + props.prevItem}>
+      <FaAngleDoubleUp className={styles.arrow_up} />
+    </Link>
+    <div>{props.children}</div>
+
+    <Link style={{ visibility: props.nextItem ? 'visible': 'hidden'}} to={"/#" + props.nextItem}>
+      <FaAngleDoubleDown className={styles.arrow_down} />
+    </Link>
+
+  </div>
 )
 
 export default Instruction

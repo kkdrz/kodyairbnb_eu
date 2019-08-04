@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `-155 PLN na Airbnb | kody, kupony, promocje Airbnb`,
-    description: `Odbierz 155 PLN na swój pierwszy pobyt z Airbnb`,
+    title: `-213 PLN na Airbnb | kody, kupony, promocje Airbnb`,
+    description: `Odbierz 213 PLN na swój pierwszy pobyt z Airbnb`,
     author: `@kkdrz`,
   },
   plugins: [

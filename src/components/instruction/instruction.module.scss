@@ -1,16 +1,19 @@
+$accent-color: rgb(0, 96, 185);
+
 .instruction_container {
     height: 100%;
     width: 100%;
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
 %arrow {
     font-size: 3em;
     top: 0;
     transition: top ease 1s;
+    color: rgba(0, 96, 185, 0.3);
 }
 
 .arrow_up {
@@ -21,11 +24,15 @@
     @extend %arrow;
 }
 .arrow_up:hover {
-    color: rgb(0, 225, 255);
+    color: $accent-color;
     top: -15px;
 }
 
 .arrow_down:hover {
-    color: rgb(0, 225, 255);
+    color: $accent-color;
     top: 15px;
+}
+
+b {
+    color: $accent-color;
 }
