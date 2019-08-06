@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `-213 PLN na Airbnb | kody, kupony, promocje Airbnb`,
-    description: `Odbierz 213 PLN na swój pierwszy pobyt z Airbnb`,
+    title: `-213 PLN na Airbnb | kupon, promocja, voucher, rabat, zniżka, kod Airbnb`,
+    description: `Odbierz 213 PLN na swój pierwszy pobyt z Airbnb. Kupon Airbnb pozwala na wykorzystanie 155zł na rezerwację noclegu oraz zniżkę 58zł na atrakcje.`,
     author: `@kkdrz`,
   },
   plugins: [
@@ -22,8 +22,8 @@ module.exports = {
         name: `kodyairbnb`,
         short_name: `kodyairbnb`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `rgb(255, 255, 255)`,
+        theme_color: `rgb(0, 96, 185)`,
         display: `minimal-ui`,
         icon: `src/images/icon.png`,
       },

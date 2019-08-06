@@ -14,10 +14,14 @@ const IndexPage = () => (
     <Header siteTitle="Odbierz 213 PLN na swój pierwszy pobyt z Airbnb!" />
 
     <Instruction id={"i1"} prevItem={"header"} nextItem={"i2"}>
+      <h1 className="keywords">
+        kody airbnb, kupony airbnb, zniżka, voucher, bon promocja, obniżka,
+        nocleg, airbnb, booking
+      </h1>
       <h1>Jak to działa?</h1>
       <p>
-        Rabat w wysokości <b>213zł</b> jest dostępny{" "}
-        <b>tylko dla nowych użytkowników</b>.
+        <b>213zł</b> zniżki na Airbnb jest dostępne
+        <b> tylko dla nowych użytkowników</b>.
         <br />
         Należy zarejestrować nowe konto z linku polecającego:
       </p>
@@ -33,7 +37,7 @@ const IndexPage = () => (
       <p>
         Istotne jest, aby <b>zarejestrować się przez stronę norweską </b>
         (później można zmienić język),
-        <br /> w innym wypadku rabat może być niższy.
+        <br /> w innym wypadku kupon Airbnb może być niższy (np. 100zł).
       </p>
       <p>
         Oczywiście możesz użyć link od kogokolwiek (np. znajomego), ale nie
@@ -42,7 +46,7 @@ const IndexPage = () => (
         Kwota zależy od stopnia zaawansowania, czyli na przykład od ilości
         podróży odbytych z Airbnb.
       </p>
-      <p>Otrzymana promocja dzieli się na dwie kwoty:</p>
+      <p>Promocja przyznana przez Airbnb dzieli się na dwie kwoty:</p>
 
       <ul style={{ padding: 0, margin: 0, listStyleType: "none" }}>
         <li style={{ margin: "5px 0px 0px 0px" }}>
@@ -56,7 +60,7 @@ const IndexPage = () => (
       </ul>
       <br />
       <p>
-        Nie będę ukrywał, że jako osoba polecająca, otrzymam zniżkę w wysokości
+        Nie będę ukrywał, że jako osoba polecająca, otrzymam voucher w wysokości
         110 PLN za Twoją pierwszą zakończoną podróż.
       </p>
     </Instruction>
@@ -70,16 +74,14 @@ const IndexPage = () => (
         </a>
       </p>
       <p>
-        zostanie otwarta strona w języku norweskim (i tak musi pozostać do
+        zostanie otwarta strona Airbnb w języku norweskim (i tak musi pozostać do
         momentu rejestracji).
       </p>
       <p>
         Aby się zarejestrować poprzez adres e-mail należy wybrać opcję
         <b> "Registrer deg med epost"</b>.
       </p>
-      <p>
-        Następnie pojawi się okno w którym należy wypełnić swoje dane:
-      </p>
+      <p>Następnie pojawi się okno w którym należy wypełnić swoje dane:</p>
       <ul style={{ padding: 0, margin: 0, listStyleType: "none" }}>
         <li style={{ margin: "5px 0px 0px 0px" }}>
           E-postadresse - Adres e-mail
@@ -119,17 +121,22 @@ const IndexPage = () => (
       </p>
     </Instruction>
     <Instruction id={"i4"} prevItem={"i3"}>
-      <h1>Gdzie jest kod i jak go użyć?</h1>
+      <h1>Gdzie jest kod Airbnb i jak go użyć?</h1>
       <p>
         Przyznane środki powinny być widoczne po kliknięciu <br /> na przycisk{" "}
         <b>"Środki"</b> w prawym górnym rogu zaraz obok awatara.
       </p>
       <p>
         Zostaną automatycznie wykorzystane na pierwszą rezerwację, <br />
-        której <b>łączny koszt wyniesie min. 287zł (nie wliczając opłat za
-        sprzątanie i podatków).</b>
+        której{" "}
+        <b>
+          łączny koszt wyniesie min. 287zł (nie wliczając opłat za sprzątanie i
+          podatków).
+        </b>
       </p>
-      <h2><b style={{color:"rgb(255,115,10)"}}>Udanego podróżowania! :)</b></h2>
+      <h2>
+        <b style={{ color: "rgb(255,115,10)" }}>Udanego podróżowania z Airbnb! :)</b>
+      </h2>
     </Instruction>
   </Container>
 )

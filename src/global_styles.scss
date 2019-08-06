@@ -1,38 +1,51 @@
- @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 
-html, body, #___gatsby, #gatsby-focus-wrapper {
-    margin: 0;
-    height:100%;
-    font-size: 22px;
-    font-family: 'Montserrat', sans-serif;
-    text-size-adjust: auto;
+html,
+body,
+#___gatsby,
+#gatsby-focus-wrapper {
+  margin: 0;
+  height: 100%;
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  text-size-adjust: auto;
 }
 
-@media only screen and (max-width: 480px){
+.keywords {
+    font-size: 16px;
+    color: white;
+}
 
-    html, body, #___gatsby, #gatsby-focus-wrapper {
-        font-size: 16px;
-    }
+@media only screen and (max-width: 480px) {
+  html,
+  body,
+  #___gatsby,
+  #gatsby-focus-wrapper {
+    font-size: 16px;
+  }
+
+  .keywords {
+    font-size: 5px;
+    color: white;
+}
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a > b {
-    color: rgb(243, 107, 28);
+  color: rgb(243, 107, 28);
 }
 
 p {
-    margin: 0px 0px 15px 0px;
-    -ms-word-break: break-all;
-    word-break: break-all;
+  margin: 0px 0px 15px 0px;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
 
- /* Non standard for webkit */
-     word-break: break-word;
-
-    -webkit-hyphens: auto;
-       -moz-hyphens: auto;
-        -ms-hyphens: auto;
-            hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
