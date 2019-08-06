@@ -23,7 +23,7 @@ const IndexPage = () => (
       </p>
       <p>
         <a
-          style={{ fontSize: "1.5em" }}
+          style={{ fontSize: "120%" }}
           href="https://www.airbnb.no/c/konradd492"
           target="_blank"
         >

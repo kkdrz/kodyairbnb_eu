@@ -3,8 +3,16 @@
 html, body, #___gatsby, #gatsby-focus-wrapper {
     margin: 0;
     height:100%;
-    font-size: 1.5vw;
+    font-size: 22px;
     font-family: 'Montserrat', sans-serif;
+    text-size-adjust: auto;
+}
+
+@media only screen and (max-width: 480px){
+
+    html, body, #___gatsby, #gatsby-focus-wrapper {
+        font-size: 16px;
+    }
 }
 
 a {
@@ -16,5 +24,15 @@ a > b {
 }
 
 p {
-    margin: 0px 0px 15px 0px
+    margin: 0px 0px 15px 0px;
+    -ms-word-break: break-all;
+    word-break: break-all;
+
+ /* Non standard for webkit */
+     word-break: break-word;
+
+    -webkit-hyphens: auto;
+       -moz-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto;
 }
