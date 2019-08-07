@@ -22,9 +22,8 @@ const IndexPage = () => (
       <p>
         <b>213zł</b> zniżki na Airbnb jest dostępne
         <b> tylko dla nowych użytkowników</b>.
-        <br />
-        Należy zarejestrować nowe konto z linku polecającego:
       </p>
+      <p>Należy zarejestrować nowe konto z linku polecającego:</p>
       <p>
         <a
           style={{ fontSize: "120%" }}
@@ -39,13 +38,7 @@ const IndexPage = () => (
         (później można zmienić język),
         <br /> w innym wypadku kupon Airbnb może być niższy (np. 100zł).
       </p>
-      <p>
-        Oczywiście możesz użyć link od kogokolwiek (np. znajomego), ale nie
-        każde konto zagwarantuje 213zł.
-        <br />
-        Kwota zależy od stopnia zaawansowania, czyli na przykład od ilości
-        podróży odbytych z Airbnb.
-      </p>
+
       <p>Promocja przyznana przez Airbnb dzieli się na dwie kwoty:</p>
 
       <ul style={{ padding: 0, margin: 0, listStyleType: "none" }}>
@@ -61,7 +54,7 @@ const IndexPage = () => (
       <br />
       <p>
         Nie będę ukrywał, że jako osoba polecająca, otrzymam voucher w wysokości
-        110 PLN za Twoją pierwszą zakończoną podróż.
+        75 PLN za Twoją pierwszą zakończoną podróż.
       </p>
     </Instruction>
 
@@ -74,8 +67,8 @@ const IndexPage = () => (
         </a>
       </p>
       <p>
-        zostanie otwarta strona Airbnb w języku norweskim (i tak musi pozostać do
-        momentu rejestracji).
+        zostanie otwarta strona Airbnb w języku norweskim (i tak musi pozostać
+        do momentu rejestracji).
       </p>
       <p>
         Aby się zarejestrować poprzez adres e-mail należy wybrać opcję
@@ -135,7 +128,9 @@ const IndexPage = () => (
         </b>
       </p>
       <h2>
-        <b style={{ color: "rgb(255,115,10)" }}>Udanego podróżowania z Airbnb! :)</b>
+        <b style={{ color: "rgb(255,115,10)" }}>
+          Udanego podróżowania z Airbnb! :)
+        </b>
       </h2>
     </Instruction>
   </Container>
