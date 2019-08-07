@@ -61,7 +61,7 @@ const IndexPage = () => (
       <br />
       <p>
         Nie będę ukrywał, że jako osoba polecająca, otrzymam voucher w wysokości
-        110 PLN za Twoją pierwszą zakończoną podróż.
+        75 PLN za Twoją pierwszą zakończoną podróż.
       </p>
     </Instruction>
 
